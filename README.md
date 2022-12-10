@@ -1,6 +1,6 @@
 # XAI for Course Design
 
-This repository is the work-in-progress implementation of the LAK 2023 submission entitled "Trusting the Explainers: XAI for Course Design" written by [REDACTED].
+This repository is the work-in-progress implementation of the LAK 2023 paper entitled "Trusting the Explainers: XAI for Course Design" written by Vinitra Swamy, Sijia Du, Mirko Marras, and Tanja Käser.
 
 ## Contributing 
 
