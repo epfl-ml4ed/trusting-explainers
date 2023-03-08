@@ -1,0 +1,21 @@
+category,feature,full description,shorter descriptions
+control,play-stop-play-vid,"The amount of times the student plays a video, stops, and plays another one.",# of play-stop-play video action sequences
+control,avg-len-seek-vid,The student’s average seek length (seconds).,avg(seek length)
+regularity,watch-ratio-vid,"The wathing ratio represents how student watches the video since he/she opened it. For instance, watching_ratio=1 means that the student s completely watches the video since he/ she opened it.","1 = student opens video and completely watches it
+0 = student opens video and watches none of it"
+control,speed-vid,The average speed the student used to play back a video.,avg(playback speed)
+regularity,active-participation-weekly-vid,The number of videos the student watched in their entirety divided by the number of loaded videos by the student. -- student activeness.,(# total watched video / # loaded videos)
+control,freq-play-vid,The frequency of the play event in the students’ sessions.,ratio of the video play event in student sessions
+effort,num-submit-quiz,"The number of submissions performed for a quiz, on average.",avg(# of submissions for a quiz)
+effort,distinct-probs-quiz,The total number of distinct problems attempted by the student.,# of distinct problems attempted
+effort,correct-time-quiz,Total time spent divided by the number of correct problems.,total time spent / # of correct problems
+effort,check-check-check-quiz,The amount of times the student checks three times the same quiz.,# of check-check-check quiz action sequences
+regularity,hourly-freq-regular,the extent to which the hourly pattern of user’s activities is repeating over days (e.g. the user is active at 8h-10h on every day).,high = the user acts during the same hour(s) everyday
+effort,total-time-vid,The total (cumulative) time that a student has spent on video events.,Total time spent on videos (s)
+control,freq-pause-vid,The frequency between every Video.Pause action and the following action.,ratio of video.pause actions / all actions
+regularity,std-time-session,The standard deviation of time spent from a login to the end of the session.,std(duration of session)
+regularity,ratio-clicks-weekend,The ratio between clicks in weekdays and weekends.,weekday clicks / weekend clicks
+effort,distinct-probs-quiz,The total number of distinct problems attempted by the student.,# of distinct problems attempted
+effort,std-correct-time-quiz,Variance of total time spent divided by the number of correct problems.,std(total time spent / # of correct problems)
+proactivity,eager-view-quiz,The extent to which the student approaches soon a quiz provided in subsequent weeks.,# of problems attempted by the student that are due in later weeks
+effort,check-check-check-quiz,The amount of times the student checks three times the same quiz.,# of check-check-check quiz action sequences
